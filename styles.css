@@ -83,6 +83,68 @@ body{
     height: 100vh;
   }
 
+/* ====================  Information ==================== */
+
+.information{
+    background-color: #17191A;
+    color: #fff;
+    padding-left: 0px !important;
+}
+
+.content-title-first{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.content-paragraph-first{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px !important;
+}
+.content-button{
+    background-color: #fff !important;
+    color: #17191A !important;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1px !important;
+}
+
+.content-button:hover{
+    background-color: #ED732B !important;
+    color:#fff !important;
+}
+
+/* ====================  Benefits ==================== */
+
+.benefits-title-first{
+    font-size: 32px;
+    font-weight: 600;
+}
+.benefits-paragraph-first{
+    font-size: 16px;
+    font-weight: 300;
+}
+.benefits-button{
+    background-color: #17191A !important;
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 1px !important;
+}
+
+.benefits-button:hover{
+    background-color: #ED732B !important;
+    color:#fff !important;
+}
+
+.benefits-list ul{
+    list-style: none;
+}
+.benefits-list-title {
+    font-weight: 600;
+}
+
 
 
 
@@ -133,6 +195,49 @@ body{
         font-size: 16px;
         padding-bottom: 50px;
     }
+
+    /* ==================== Information ==================== */
+
+.information-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.content-title-first{
+    font-size:30px;
+    text-align: center;
+}
+
+.content-paragraph-first{
+    text-align: center;
+}
+
+.content-button{
+    width: 100%;
+}
+
+ /* ==================== Benefits ==================== */
+.benefits-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.benefits-title-first{
+    font-size:30px;
+    text-align: center;
+}
+
+.benefits-paragraph-first{
+    text-align: center;
+}
+
+.benefits-list{
+    text-align: center;
+}
 
 
 }
