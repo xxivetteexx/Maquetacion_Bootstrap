@@ -1,0 +1,70 @@
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+/* ==================== Navbar ==================== */
+
+.navbar{
+    background-color: #17191A !important;
+    font-weight: 300;
+    position:relative
+}
+.navbar .logo{
+    height: 0;
+    width: 167px;
+}
+
+.logo > img {
+    position:absolute;
+    top:0
+}
+
+.nav-link {
+    color: #fff !important;
+}
+.nav-btn{
+    color: #fff;
+    background-color:#2E373C;
+}
+.nav-btn:hover{
+    color:#2E373C ;
+    background-color:#fff;
+}
+.navbar-brand{
+    position: absolute;
+    z-index: 1;
+    color:#fff;
+}
+.navbar-lang-spanish,.navbar-lang-english {
+    font-weight: 400;
+    text-decoration:none;
+}
+.navbar-lang-spanish{
+    color:#fff;
+}
+.navbar-lang-spanish:hover{
+    color:#AEAEAE;
+}
+.navbar-lang-english{
+    color:#AEAEAE;
+}
+
+.navbar-lang-english:hover{
+    color:#fff;
+}
+.burger-menu{
+    color:#fff;
+    cursor: pointer;
+}
+
+@media (max-width: 988px){
+    .logo img {
+        width: 78px;
+        height: 70px;
+    }
+    .navbar-collapse {
+        padding-top: 50px;
+    }
+    .navbar-toggler {
+        background-color:#fff !important;
+    }
+}
